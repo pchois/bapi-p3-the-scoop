@@ -1,0 +1,31 @@
+users:
+  pablo:
+    username: pablo
+    articleIds:
+      - 1
+    commentIds: []
+  michelle:
+    username: michelle
+    articleIds:
+      - 2
+    commentIds: []
+articles:
+  '1':
+    id: 1
+    title: The Art of Racing in the Rain
+    url: 'http://www.peachesmotorsports.com'
+    username: pablo
+    commentIds: []
+    upvotedBy: []
+    downvotedBy: []
+  '2':
+    id: 2
+    title: Daemon
+    url: 'http://thedaemon.com/'
+    username: michelle
+    commentIds: []
+    upvotedBy: []
+    downvotedBy: []
+comments: {}
+nextArticleId: 3
+nextCommentId: 1
